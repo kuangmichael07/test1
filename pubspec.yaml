@@ -1,0 +1,55 @@
+name: walk_with_god
+description: Walk With God App
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter_credit_card: 0.1.0
+  flutter_colorpicker: any
+  flutter:
+    sdk: flutter
+  camera:
+  image_picker:
+  path_provider:
+  path:
+  loading: ^1.0.1
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  provider: ^3.0.0
+  font_awesome_flutter: ^8.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - assets/login_logo.jpg
+  fonts:
+    - family: WorkSansSemiBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Bold.ttf
+
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
+
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
+    - family: Anton
+      fonts:
+        - asset: assets/fonts/Anton-Regular.ttf
